@@ -36,6 +36,12 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install fastapi uvicorn python-dotenv pypdf pandas openpyxl chromadb langchain langchain-openai langchain-chroma langchain-text-splitters
 uvicorn app:app --reload
+
+* API Documentation
+Once the server is running, you can access the interactive API documentation here:
+
+* http://127.0.0.1:8000/docs
+This provides a Swagger UI where you can test all available endpoints directly from your browser.
 ```
 
 ## API
